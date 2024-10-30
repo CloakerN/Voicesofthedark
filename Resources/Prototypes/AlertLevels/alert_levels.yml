@@ -55,7 +55,7 @@
     delta:
       announcement: alert-level-delta-announcement
       selectable: false
-      sound: /Audio/Announcements/Alerts/code_delta.ogg
+      sound: /Audio/Announcements/Alerts/delta_alt.ogg
       disableSelection: true
       color: DarkRed
       emergencyLightColor: Orange
@@ -70,3 +70,14 @@
       emergencyLightColor: DarkViolet
       forceEnableEmergencyLights: true
       shuttleTime: 1200
+
+
+
+    #Modificação para Nexus-Station abaixo:
+    black:
+      announcement: alert-level-black-announcement
+      color: "#000000"
+      sound: /Audio/Announcements/Alerts/redalert.ogg
+      emergencyLightColor: "#525252"
+      forceEnableEmergencyLights: true
+      shuttleTime: 800

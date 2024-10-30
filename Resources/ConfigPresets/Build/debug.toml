@@ -3,4 +3,4 @@
 enabled = false
 
 [shuttle]
-auto_call_time = 0
+auto_call_time = 105.0

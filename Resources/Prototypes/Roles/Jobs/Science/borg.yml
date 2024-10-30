@@ -9,8 +9,8 @@
     role: JobBorg
     time: 18000  # 5 hrs
   canBeAntag: false
-  setPreference: false # DeltaV - disable AI until its fleshed out
-  whitelisted: true # DeltaV - ai must be whitelisted
+  setPreference: false # DeltaV - disable AI until its fleshed out  /// modificado para permitir a AI no Nexus-Station
+  whitelisted: false # DeltaV - ai must be whitelisted
   icon: JobIconStationAi
   supervisors: job-supervisors-rd
   jobEntity: StationAiBrain

@@ -1,21 +1,21 @@
 ## UI
 
-hypospray-all-mode-text = Only Injects
-hypospray-mobs-only-mode-text = Draws and Injects
-hypospray-invalid-text = Invalid
+hypospray-all-mode-text = Somente Injeções
+hypospray-mobs-only-mode-text = injeções e extração
+hypospray-invalid-text = Invalido
 hypospray-volume-label = Volume: [color=white]{$currentVolume}/{$totalVolume}u[/color]
     Mode: [color=white]{$modeString}[/color]
 
 ## Entity
 
-hypospray-component-inject-other-message = You inject {$other}.
-hypospray-component-inject-self-message = You inject yourself.
-hypospray-component-inject-self-clumsy-message = Oops! You injected yourself.
-hypospray-component-empty-message = Nothing to inject.
-hypospray-component-feel-prick-message = You feel a tiny prick!
-hypospray-component-transfer-already-full-message = {$owner} is already full!
-hypospray-cant-inject = Can't inject into {$target}!
+hypospray-component-inject-other-message = Você injeta: {$other}.
+hypospray-component-inject-self-message = Você se injeta.
+hypospray-component-inject-self-clumsy-message = Opss! Você se injetou.
+hypospray-component-empty-message = Nada para injetar.
+hypospray-component-feel-prick-message = Você sente uma pequena picada!
+hypospray-component-transfer-already-full-message = {$owner} já está cheio!
+hypospray-cant-inject = Não é possível injetar em {$target}!
 
-hypospray-verb-mode-label = Toggle Container Draw
-hypospray-verb-mode-inject-all = You cannot draw from containers anymore.
-hypospray-verb-mode-inject-mobs-only = You can now draw from containers.
+hypospray-verb-mode-label = Alternar extração de recipiente.
+hypospray-verb-mode-inject-all = Você não pode mais extrair de recipientes.
+hypospray-verb-mode-inject-mobs-only = Agora você pode extrair a partir de recipientes.

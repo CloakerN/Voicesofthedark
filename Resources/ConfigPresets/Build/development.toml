@@ -1,9 +1,9 @@
 ﻿[game]
 # Straight in-game baby
-lobbyenabled = false
+# lobbyenabled = false
 # Dev map for faster loading & convenience
-map = "Dev"
-role_timers = false
+#    map = "Dev"
+#    role_timers = false
 contraband_examine = false # DeltaV
 
 [ghost]
@@ -24,14 +24,14 @@ preload = false
 expedition_cooldown = 30.0
 
 [shuttle]
-grid_fill = false
-auto_call_time = 0
-emergency = false
-arrivals = false
-preload_grids = false
+grid_fill = true
+auto_call_time = 105.0
+emergency = true
+arrivals = true
+preload_grids = true
 
-[admin]
-see_own_notes = true
+#[admin]
+#see_own_notes = true
 
-[server] # DeltaV
-rules_file = "DeltaVRuleset"
+#[server] # DeltaV
+#rules_file = "DeltaVRuleset"
